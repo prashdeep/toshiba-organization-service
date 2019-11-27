@@ -11,3 +11,8 @@ management:
     web:
       exposure:
         include: refresh
+
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://localhost:8901/auth/user
